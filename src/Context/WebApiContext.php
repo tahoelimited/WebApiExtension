@@ -46,7 +46,7 @@ class WebApiContext implements ApiClientAwareContext
     /**
      * @var \GuzzleHttp\Message\ResponseInterface
      */
-    private $response;
+    protected $response;
 
     private $placeHolders = array();
 
